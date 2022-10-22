@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập JS buổi 7-8</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container py-5">
+        <h1 class="text-center">Bài tập JS buổi 7-8</h1>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Nhập số nguyên</h2>
+                    <input type="number" class="form-control w-25 my-2 " id="soNguyen" placeholder="Nhập số n">
+                    <button id="themSo" type="button" class="btn btn-primary mb-3">Thêm số</button>
+                    <p class="alert alert-success py-3" id="txtResult"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Bài 1: Tổng số dương</h2>
+                    <button id="tinhTongDuong" type="button" class="btn btn-primary mb-3">Tính tổng dương</button>
+                    <p class="alert alert-success py-3" id="txtResult1"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-2">
+                    <h2>Bài 2: Đếm số dương</h2>
+                    <button id="demSoDuong" type="button" class="btn btn-primary mb-3">Đếm số dương</button>
+                    <p class="alert alert-success py-3" id="txtResult2"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Bài 3: Tìm số nhỏ nhất</h2>
+                    <button id="timMin" type="button" class="btn btn-primary mb-3">Tìm số nhỏ nhất</button>
+                    <p class="alert alert-success py-3" id="txtResult3"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Bài 4: Tìm số dương nhỏ nhất</h2>
+                    <button id="timSoDuongMin" type="button" class="btn btn-primary mb-3">Tìm số dương nhỏ nhất</button>
+                    <p class="alert alert-success py-3" id="txtResult4"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Bài 5: Tìm số chẵn cuối cùng</h2>
+                    <button id="timSoChan" type="button" class="btn btn-primary mb-3">Tìm số chẵn cuối cùng</button>
+                    <p class="alert alert-success py-3" id="txtResult5"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Bài 6: Đổi chỗ</h2>
+                    <div class="d-flex">
+                        <input type="number" class="form-control mx-1" id="viTri1" placeholder="Nhập vị trí 1">
+                        <input type="number" class="form-control mx-1 mb-3" id="viTri2" placeholder="Nhập vị trí 2">
+                    </div>
+                    <button id="doiCho" type="button" class="btn btn-primary mb-3">Đổi chỗ</button>
+                    <p class="alert alert-success py-3" id="txtResult6"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Bài 7: Sắp xếp tăng dần</h2>
+                    <button id="sapXep" type="button" class="btn btn-primary mb-3">Sắp xếp</button>
+                    <p class="alert alert-success py-3" id="txtResult7"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Bài 8: Tìm số nguyên tố đầu tiên</h2>
+                    <button id="timSNT" type="button" class="btn btn-primary mb-3">Sắp xếp</button>
+                    <p class="alert alert-success py-3" id="txtResult8"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <div class="form-group">
+                    <h2>Bài 9: Đếm số nguyên</h2>
+                    <div class="py-3">
+                      <div class="col-6">
+                        <input type="number" class="form-control" id="NhapSo" placeholder="Nhập số">
+                      </div>
+                      <div class="col-6">
+                        <button class="btn btn-primary" id="ThemSo">Thêm số</button>
+                      </div>
+                    </div>
+                    <div class="alert alert-success mt-3" id="txtResult9_1">
+                      =>
+                    </div>
+                    <div class="">
+                      <button class="btn btn-primary mt-3" id="DemSoNguyen">Đếm số nguyên</button>
+                    </div>
+                    <div class="alert alert-success mt-3" id="txtResult9_2">
+                      =>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="w-50">
+                <form class="py-3">
+                    <h2>Bài 10: So sánh số lượng âm dương</h2>
+                    <button id="soSanh" type="button" class="btn btn-primary mb-3">So sánh</button>
+                    <p class="alert alert-success py-3" id="txtResult10"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
